@@ -1,4 +1,4 @@
-```python
+
 import selenium
 import pyautogui as pg
 from selenium import webdriver
@@ -32,4 +32,3 @@ login_buton = driver.find_element_by_xpath('/html/body/div[1]/div[2]/div[1]/div/
 login_buton.click()
 
 print('Login Succesfull')
-```
